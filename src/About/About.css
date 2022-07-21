@@ -1,0 +1,27 @@
+.about-page-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-page-container h2{
+text-align: center;
+}
+
+.about-page-container span{
+  font-size: larger;
+}
+
+@media (max-width: 500px) {
+
+  .about-page-container h2{
+    font-size: medium;
+    }
+    .about-page-container span{
+      font-size: small;
+    }
+
+    .about-page-container h4,p{
+      font-size: small;
+      }
+}
