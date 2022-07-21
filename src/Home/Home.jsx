@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import {Link} from 'react-router-dom'
 import './Home.css'
 const Home=()=>{
   const [donation,setdonation]=useState(true);
@@ -20,7 +19,7 @@ const Home=()=>{
         <h1>Donating is a privilege which very less people have</h1>
         <p className="payment-page-btn-para">
         <button className='back-btn' onClick={()=>{setdonation(!donation)}}>Back</button>
-        <a href=' https://amit5785.github.io/payment.github.io/' className='payment-btn'  target="_self" >Pay</a>
+        <a href=' https://amit5785.github.io/payment-razorpay/' className='payment-btn'  target="_self" >Pay</a>
         </p>
       </div>
       
